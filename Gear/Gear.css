@@ -1,0 +1,145 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+body a:hover {
+  opacity: 0.8;
+}
+
+/* NAV */
+
+h4 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  border-right: 1px solid antiquewhite;
+  padding-right: 8px;
+}
+
+.navbar {
+  background-color: #0b0c10;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); /* IE */
+  background: rgba(0, 0, 0, 0.5); /* NON-IE */
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.navbar a {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
+.social-media i {
+  width: 20px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+
+/* Parallax Images */
+
+.mic-image {
+  /* The image used */
+  background-image: url("../pics/Mics.JPG");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gear-image {
+  /* The image used */
+  background-image: url("../pics/Gear.JPG");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.amp-image {
+  /* The image used */
+  background-image: url("../pics/AmpHeads.JPG");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Text */
+
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 60px;
+  color: antiquewhite;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 25px;
+  /* box-shadow: 2px black; */
+}
+
+/* Table */
+
+.centered-table {
+  text-align: center;
+}
+
+.right-table {
+  text-align: right;
+}
+
+.heading {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.table-color {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: antiquewhite;
+}
+
+@media (min-width: 576px) {
+  .gallery-block .transform-on-hover:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+  .social-media-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-media {
+    display: none;
+  }
+  .tbr-nav {
+    display: none;
+  }
+}

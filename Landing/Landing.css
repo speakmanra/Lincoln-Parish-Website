@@ -1,0 +1,254 @@
+/* Black
+#0B0C10
+Dark Gray
+#1F2833
+Light Gray
+#C5C6C7
+Light Turq
+#66FCF1
+Dark Turq
+#45A29E */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+body a:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 60px;
+  color: black;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  /* box-shadow: 2px black; */
+}
+
+/* NAV */
+
+h4 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  border-right: 1px solid antiquewhite;
+  padding-right: 8px;
+}
+
+.navbar {
+  background-color: #0b0c10;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); /* IE */
+  background: rgba(0, 0, 0, 0.4); /* NON-IE */
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.navbar a {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
+.social-media i {
+  width: 20px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+
+/* Parallax Images */
+
+.image-one {
+  /* The image used */
+  background-image: url("https://scontent.fbna1-2.fna.fbcdn.net/v/t1.0-9/20374541_826343377529496_8053541562196441897_n.jpg?_nc_cat=100&_nc_oc=AQn4eq1_Q_6wx61cu4uDRZLdEKT8saPBK6izx5ByedwPE2B2SHa5EgynADtK-jY0ym8&_nc_ht=scontent.fbna1-2.fna&oh=d96a6c30d5ac89e3ab297ba04916ef77&oe=5DEBE3FC");
+
+  /* Set a specific height */
+  height: 450px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-one-img-one {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1505562130589-9879683e72da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+
+  /* Set a specific height */
+  height: 650px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-two {
+  /* The image used */
+  background-image: url("https://scontent.fbna1-1.fna.fbcdn.net/v/t1.0-9/19105796_799680050195829_1780799203317870563_n.jpg?_nc_cat=105&_nc_oc=AQkgKrqrCwoL5HKujXMD9qFk2MrRGwJo_0665rmFQf-Wu65vpyHOQc8GfXLHTpfk7xg&_nc_ht=scontent.fbna1-1.fna&oh=426583f190e3c703d7b6c3f0a8d18b5c&oe=5DAB3F33");
+
+  /* Set a specific height */
+  height: 450px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-two-img-one {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1517273006195-51fa3364bce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80");
+
+  /* Set a specific height */
+  height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-two-img-two {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1552820081-00b3187b7a57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+
+  /* Set a specific height */
+  height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-three {
+  /* The image used */
+  background-image: url("https://scontent.fbna1-2.fna.fbcdn.net/v/t1.0-9/17264719_749297158567452_4109120768198602135_n.jpg?_nc_cat=106&_nc_oc=AQnMpyyp01uNSzhSToyI5qwUf3aeo3eVkFjLC0-6_zwHZVm_h_ayaDJZUPe6IsINfA8&_nc_ht=scontent.fbna1-2.fna&oh=0b567816d353d20a62338dbc2e068323&oe=5DA4A372");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TEXT BLOCKS */
+
+/* First block */
+
+.first-block-text {
+  font-family: "Megrim", cursive;
+  font-size: 60px;
+  color: black;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 25px;
+  /* box-shadow: 2px black; */
+}
+
+.intro-block {
+  /* background: rgb(107, 114, 114) 100%; */
+  height: 600px;
+  padding-top: 10px;
+}
+
+#logo-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: antiquewhite;
+}
+
+/* Image Blocks */
+
+.block-two-img-one-text {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: antiquewhite;
+  margin-top: 40px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.block-two-img-two-text {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: antiquewhite;
+  margin-top: 40px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.style-eight {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+.style-eight:after {
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.social-media-mobile {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 18px;
+}
+
+.first-icon {
+  margin-left: -60px;
+}
+
+@media (min-width: 576px) {
+  .transform-on-hover:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+  .social-media-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-media {
+    display: none;
+  }
+  .tbr-nav {
+    display: none;
+  }
+}

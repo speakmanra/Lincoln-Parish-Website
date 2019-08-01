@@ -1,0 +1,11 @@
+{
+  "name": "tbr-website",
+  "version": "1.0.0",
+  "description": "Talk Box Rodeo Company Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Speakman",
+  "license": "MIT"
+}

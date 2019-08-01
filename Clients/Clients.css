@@ -1,0 +1,85 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: antiquewhite;
+  background-color: black;
+}
+
+body a:hover {
+  opacity: 0.8;
+}
+
+/* NAV */
+
+h4 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  border-right: 1px solid antiquewhite;
+  padding-right: 8px;
+}
+
+.navbar {
+  background-color: #0b0c10;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); /* IE */
+  background: rgba(0, 0, 0, 0.4); /* NON-IE */
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.navbar a {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
+.social-media i {
+  width: 20px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+
+/* CARD */
+
+.card-body {
+  text-align: center;
+  font-family: "Megrim", cursive;
+}
+
+.card img {
+  width: 286px;
+  height: 240px;
+}
+
+.artist-panel {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: auto;
+}
+
+.card i {
+  color: antiquewhite;
+  font-size: 30px;
+  align-self: center;
+}
+
+@media (max-width: 576px) {
+  .social-media {
+    display: none;
+  }
+  .tbr-nav {
+    display: none;
+  }
+}
