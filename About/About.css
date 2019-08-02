@@ -139,9 +139,14 @@ hr {
     color: antiquewhite;
   }
   #img1 {
-    width: 280px;
+    width: 270px;
   }
   #img2 {
-    width: 280px;
+    width: 250px;
+    margin-right: 40px;
+  }
+  hr {
+    color: antiquewhite;
+    border-top: medium double antiquewhite;
   }
 }

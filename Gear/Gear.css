@@ -142,4 +142,14 @@ h1 {
   .tbr-nav {
     display: none;
   }
+
+  .mic-image {
+    display: none;
+  }
+  .gear-image {
+    display: none;
+  }
+  .amp-image {
+    display: none;
+  }
 }
