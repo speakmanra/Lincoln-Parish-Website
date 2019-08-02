@@ -95,4 +95,8 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .mobile-margin {
+    margin-top: 48px;
+  }
 }
