@@ -251,4 +251,32 @@ h4 {
   .tbr-nav {
     display: none;
   }
+  .image-one {
+    display: none;
+  }
+  .image-two {
+    display: none;
+  }
+  .image-three {
+    display: none;
+  }
+  .block-one-img-one {
+    /* The image used */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/A_blank_black_picture.jpg");
+
+    /* Set a specific height */
+    height: 650px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  hr {
+    display: none;
+  }
+  .first-block-text {
+    color: antiquewhite;
+  }
 }
