@@ -9,6 +9,12 @@ body a:hover {
 
 /* NAV */
 
+h1 {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
 h4 {
   font-family: "Megrim", cursive;
   color: antiquewhite;
@@ -44,20 +50,6 @@ h4 {
   width: 20px;
   font-size: 25px;
   color: antiquewhite;
-}
-
-.background-img {
-  /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1485211177140-aa3b17a0c7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1101&q=80");
-
-  /* Set a specific height */
-  height: 675px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .contact-form {
