@@ -22,6 +22,10 @@ h4 {
   padding-right: 8px;
 }
 
+#h4 {
+  text-align: center;
+}
+
 h5 {
   font-family: "Megrim", cursive;
   color: antiquewhite;
@@ -79,7 +83,6 @@ h5 {
 }
 
 @media (max-width: 992px) {
-
   .tbr-nav {
     display: none;
   }
