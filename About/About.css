@@ -80,7 +80,7 @@ hr {
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   .background-img {
     /* The image used */
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/A_blank_black_picture.jpg");
@@ -128,7 +128,7 @@ hr {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .social-media {
     display: none;
   }

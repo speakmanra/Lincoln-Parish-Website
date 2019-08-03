@@ -125,7 +125,7 @@ h4 {
 
 /* Turns off hover effect for mobile */
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .gallery-block .transform-on-hover:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
@@ -137,7 +137,7 @@ h4 {
 
 /* if on mobile.. */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   .background-img {
     /* The image used */
     background-image: url("https://images.unsplash.com/photo-1461994319301-06e2de6207c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -153,7 +153,7 @@ h4 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .social-media {
     display: none;
   }

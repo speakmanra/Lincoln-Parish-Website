@@ -61,7 +61,7 @@ h4 {
   padding: 40px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .social-media {
     display: none;
   }

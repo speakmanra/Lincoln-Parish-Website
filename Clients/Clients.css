@@ -82,7 +82,7 @@ h1 {
   align-self: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .social-media {
     display: none;
   }
