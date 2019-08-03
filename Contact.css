@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+body a:hover {
+  opacity: 0.8;
+}
+
+/* NAV */
+
+h1 {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
+h4 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  border-right: 1px solid antiquewhite;
+  padding-right: 8px;
+}
+
+#h4 {
+  text-align: center;
+}
+
+h5 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #0b0c10;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); /* IE */
+  background: rgba(0, 0, 0, 0.4); /* NON-IE */
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+.navbar a {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
+.social-media i {
+  width: 20px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding-top: 30px;
+  color: antiquewhite;
+  width: 75%;
+  margin: auto;
+  padding: 40px;
+}
+
+@media (min-width: 992px) {
+  .gallery-block .transform-on-hover:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  h5 {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .tbr-nav {
+    display: none;
+  }
+  .background-img {
+    /* The image used */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/A_blank_black_picture.jpg");
+
+    /* Set a specific height */
+    height: 650px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

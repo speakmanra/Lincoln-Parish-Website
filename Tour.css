@@ -1,0 +1,181 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+body a:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 60px;
+  color: antiquewhite;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 25px;
+  /* box-shadow: 2px black; */
+}
+
+/* NAV */
+
+h4 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  border-right: 1px solid antiquewhite;
+  padding-right: 8px;
+}
+
+h5 {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #0b0c10;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); /* IE */
+  background: rgba(0, 0, 0, 0.5); /* NON-IE */
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.navbar a {
+  font-family: "Megrim", cursive;
+  color: antiquewhite;
+}
+
+.social-media i {
+  width: 20px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+
+.gallery-block {
+  padding-bottom: 60px;
+  
+}
+
+.gallery-block .heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.gallery-block .heading h1 {
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card {
+  transition: 0.4s ease;
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center;
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px;
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529;
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none;
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.background-img {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1461994319301-06e2de6207c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turns off hover effect for mobile */
+
+@media (min-width: 992px) {
+  .gallery-block .transform-on-hover:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  h5 {
+    display: none;
+  }
+}
+
+/* if on mobile.. */
+
+@media only screen and (max-width: 992px) {
+  .background-img {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1461994319301-06e2de6207c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+
+    /* Set a specific height */
+    height: 3000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+ 
+  .tbr-nav {
+    display: none;
+  }
+  .background-img {
+    /* The image used */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/A_blank_black_picture.jpg");
+
+    /* Set a specific height */
+    height: 650px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
