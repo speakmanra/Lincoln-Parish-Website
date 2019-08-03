@@ -133,6 +133,9 @@ h4 {
   .social-media-mobile {
     display: none;
   }
+  h5 {
+    display: none;
+  }
 }
 
 /* if on mobile.. */
