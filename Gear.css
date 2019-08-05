@@ -57,7 +57,7 @@ h5 {
 
 .mic-image {
   /* The image used */
-  background-image: url("./pics/Mics.JPG");
+  background-image: url("./pictures/Mics.JPG");
 
   /* Set a specific height */
   height: 400px;
@@ -71,7 +71,7 @@ h5 {
 
 .gear-image {
   /* The image used */
-  background-image: url("./pics/Gear.JPG");
+  background-image: url("./pictures/Gear.JPG");
 
   /* Set a specific height */
   height: 400px;
@@ -85,7 +85,7 @@ h5 {
 
 .amp-image {
   /* The image used */
-  background-image: url("./pics/AmpHeads.JPG");
+  background-image: url("./pictures/AmpHeads.JPG");
 
   /* Set a specific height */
   height: 400px;
