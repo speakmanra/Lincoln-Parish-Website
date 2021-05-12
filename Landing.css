@@ -78,7 +78,7 @@ h5 {
 
 .image-one {
   /* The image used */
-  background-image: url("https://scontent.fbna1-2.fna.fbcdn.net/v/t1.0-9/20374541_826343377529496_8053541562196441897_n.jpg?_nc_cat=100&_nc_oc=AQn4eq1_Q_6wx61cu4uDRZLdEKT8saPBK6izx5ByedwPE2B2SHa5EgynADtK-jY0ym8&_nc_ht=scontent.fbna1-2.fna&oh=d96a6c30d5ac89e3ab297ba04916ef77&oe=5DEBE3FC");
+  background-image: url("./pictures/LiveRoomDrums.JPG");
 
   /* Set a specific height */
   height: 450px;
@@ -88,6 +88,8 @@ h5 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .block-one-img-one {
@@ -148,7 +150,7 @@ h5 {
 
 .image-three {
   /* The image used */
-  background-image: url("https://scontent.fbna1-2.fna.fbcdn.net/v/t1.0-9/17264719_749297158567452_4109120768198602135_n.jpg?_nc_cat=106&_nc_oc=AQnMpyyp01uNSzhSToyI5qwUf3aeo3eVkFjLC0-6_zwHZVm_h_ayaDJZUPe6IsINfA8&_nc_ht=scontent.fbna1-2.fna&oh=0b567816d353d20a62338dbc2e068323&oe=5DA4A372");
+  background-image: url("./pictures/LiveRoomPiano.JPG");
 
   /* Set a specific height */
   height: 800px;
@@ -158,6 +160,8 @@ h5 {
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /* TEXT BLOCKS */
